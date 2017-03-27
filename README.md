@@ -22,6 +22,8 @@ This iteration will have a command prompt and each missile will have text overla
 
 This game will have a Game board, Command Prompt where the player will be typing, an About Modal describing the controls, and a links to the Github Repo and my LinkedIn profile page.
 
+![wireframe-main-screen](./Missile-Command-Typing.png)
+
 ### Architecture and Technologies
 
 This project will use:
