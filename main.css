@@ -1,8 +1,83 @@
+body{
+  padding: 10px;
+  background-color: black;
+}
+
 .main-container{
   display: flex;
   flex-direction: row;
 }
 
-.main-container input[type="text"]{
-  height: 30px;
+.main-container h1, h3{
+  text-align: center;
+  font-family: 'Revalia', cursive;
+
+  color: white;
 }
+
+.content-container{
+  width: 100%;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container input[type="text"]{
+  height: 30px;
+  width: 200px;
+  border: 5px solid #32CD32;
+  border-style: double;
+  font-family: 'Press Start 2P', cursive;
+  color: #32CD32;
+  background-color: black;
+}
+
+.contact{
+  width: 100%;
+}
+
+.contact a.round{
+  background-color: white;
+  border-radius: 20px;
+}
+
+.info{
+  width: 100%;
+}
+
+.info p{
+  padding: 10px;
+  font-family: 'Revalia', cursive;
+
+  color: white;
+}
+
+.info p span{
+  color: #32CD32;
+}
+
+.links-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.canvas{
+  border: 5px solid #32CD32;
+  border-style: double;
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+.canvas:after{
+  border:
+}
+
+/*img.counter_missile{
+  background-color: green;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}*/

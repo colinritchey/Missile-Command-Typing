@@ -2,16 +2,48 @@
   <head>
     <title>Missile Command</title>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Revalia" rel="stylesheet">
     <link href="main.css" rel="stylesheet"></link>
     <!-- <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script> -->
   </head>
 
   <body>
     <section class="main-container">
-      <input type="text" id="user-prompt" ></input>
-      <canvas id="demoCanvas" width="500" height="300"></canvas>
+
+      <section class="contact">
+        <h3>Contact</h3>
+        <section class="links-container">
+          <a href="https://github.com/colinritchey" class="round">
+            <img id="source" src="images/github_cat.png" width="30", height="30">
+          </a>
+
+          <a href="https://www.linkedin.com/in/colin-ritchey-38205a70">
+            <img id="source" src="images/linkedIn.png" width="30", height="30">
+          </a>
+        </section>
+      </section>
+
+      <section class="content-container">
+        <h1>Missile Command Typing</h1>
+        <canvas id="demoCanvas" class="canvas" ></canvas>
+        <input type="text" id="user-prompt" ></input>
+      </section>
+
+      <section class="info">
+        <h3>Instructions</h3>
+        <p>Much like the classic arcade game <span>Missile Command</span>,
+            your goal is to protect the citzens from falling missiles. However you must
+            <span>type</span> the <span>words</span> on the missiles to
+            destroy them, miss too many and you lose the game. <span>Good luck!</span></p>
+      </section>
+
     </section>
     <script type="application/javascript" src="lib/bundle.js"></script>
+
+    <div style="display:none;">
+     <img id="missile" src="images/cartoon_missile.png">
+     <img id="counter-missile" src="images/small_rocket.png" class="counter_missile">
+   </div>
 
   </body>
 </html>
