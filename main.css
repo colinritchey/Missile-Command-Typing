@@ -3,6 +3,12 @@ body{
   background-color: black;
 }
 
+body h1{
+  text-align: center;
+  color: white;
+  font-family: 'Revalia', cursive;
+}
+
 .main-container{
   display: flex;
   flex-direction: row;
