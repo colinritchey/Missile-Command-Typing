@@ -28,8 +28,8 @@ This project will use:
 ### Code snippets
 
 ```Javascript
-  pointOfImpact(vel, pos){
-    return [vel[0]*100 + pos[0], vel[1]*100 + pos[1]];
+  pointOfImpact(vel, pos, time){
+    return [vel[0]*time + pos[0], vel[1]*time + pos[1]];
   },
 
   counter_velocity(start, finish, time){
