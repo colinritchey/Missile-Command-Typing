@@ -22,11 +22,25 @@ body h1{
 }
 
 .content-container{
+  position:relative;
   width: 100%;
   align-items: center;
 
   display: flex;
   flex-direction: column;
+}
+
+.start-screen{
+  position:absolute;
+  height:100px;
+  width:500px;
+  top:200px;
+  left:165px;
+
+  color: white;
+
+  /*border: 1px solid white;*/
+  font-family: 'Press Start 2P', cursive;
 }
 
 .content-container input[type="text"]{
@@ -80,6 +94,10 @@ body h1{
 
 .canvas:after{
   border:
+}
+
+.press-2p{
+  style="font-family: 'Press Start 2P', cursive ;"
 }
 
 /*img.counter_missile{
