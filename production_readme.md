@@ -10,6 +10,8 @@ The basic premise is that the player must prevent missiles from landing by click
 
 This iteration will have a command prompt and each missile will have text overlaying them. The player must type the word on the missile and a counter-missile will automatically launch and hit the falling missile. These are randomly selected words (from a pool of possible words) and when the player spells the right word the prompt will clear.
 
+![game-play](assets/images/gameplay.png)
+
 ### Instructions
 
 Press the spacebar to get started. Type in the words on the falling missiles to destroy them, the text will
@@ -27,9 +29,14 @@ This project will use:
 
 ### Code snippets
 
+Using basic vector calculus, when the user types the correct word on a missile
+the the point of impact is calculated base on it's position, velocity and the
+amount of time it has left. The counter missile velocity takes that point
+of impact and creates a trajectory to intersect the missile.
+
 ```Javascript
   pointOfImpact(vel, pos, time){
-    return [vel[0]*time + pos[0], vel[1]*time + pos[1]];
+    return [vel[0] * time + pos[0], vel[1] * time + pos[1]];
   },
 
   counter_velocity(start, finish, time){
