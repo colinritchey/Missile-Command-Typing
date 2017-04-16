@@ -67,14 +67,14 @@ body h1{
   width: 100%;
 }
 
-.info p{
+.info li{
   padding: 10px;
   font-family: 'Revalia', cursive;
 
   color: white;
 }
 
-.info p span{
+.info li span{
   color: #32CD32;
 }
 
@@ -82,7 +82,7 @@ body h1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 60%;
+  width: 130px;
   margin-left: 20%;
 }
 
